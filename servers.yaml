@@ -1,0 +1,13 @@
+prod:
+  host: 188.93.210.195
+  user: webuser
+  password: 123
+  stage: production
+  deploy_path: /home/webuser/estrella2
+
+test:
+  host: 188.93.210.195
+  user: webuser
+  password: 123
+  stage: production
+  deploy_path: /home/webuser/estrella2

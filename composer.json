@@ -1,0 +1,19 @@
+{
+	"name":"astarsy/estrella2",
+	"description":"Estrella.ru website",
+	"license":"proprietary",
+	"authors":[
+		{
+			"name":"Mikhail Gladkov",
+			"email":"astarsy@mail.ru"
+		}
+	],
+	"autoload":{
+		"psr-4":{
+			"Astarsy\\":"astarsy/"
+		}
+	},
+	"require": {
+		"deployer/deployer": "^4.0"
+	}
+}
