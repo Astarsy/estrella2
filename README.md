@@ -1,0 +1,1 @@
+The Estrella.ru website dynamic version.
