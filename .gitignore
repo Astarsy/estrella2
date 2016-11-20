@@ -1,0 +1,9 @@
+.idea
+.vagrant
+.env
+.version
+vagrant.yaml
+vendor/
+app/vendor/
+node_modules/
+*.sql
