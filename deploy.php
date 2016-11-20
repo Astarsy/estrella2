@@ -5,11 +5,11 @@ require 'recipe/common.php';
 // Configuration
 set('repository', 'git@github.com:Astarsy/estrella2.git');
 set('shared_files', []);
-set('shared_dirs', []);
-set('writable_dirs', []);
-set('copy_dirs', [
+set('shared_dirs', [
+    'vendor',
     'app/vendor',
-]);
+    ]);
+set('writable_dirs', []);
 
 // Servers
 
