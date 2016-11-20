@@ -5,7 +5,7 @@ require 'recipe/common.php';
 // Configuration
 set('repository', 'git@github.com:Astarsy/estrella2.git');
 set('shared_files', []);
-set('shared_dirs', []);
+set('shared_dirs', ['app/vendor']);
 set('writable_dirs', []);
 
 // Servers
@@ -39,7 +39,7 @@ task('deploy', [
     'deploy:update_code',
     'deploy:shared',
     'deploy:writable',
-    'deploy:vendors',
+//    'deploy:vendors',
     'deploy:clear_paths',
     'deploy:symlink',
     'deploy:unlock',
